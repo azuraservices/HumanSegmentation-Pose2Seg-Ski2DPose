@@ -27,8 +27,8 @@ The primary goal is to understand the methodology proposed in the paper, validat
 4. [Installation](#installation)
 5. [Usage](#usage)
 6. [Results](#results)
-7. [Future Work](#future-work)
-8. [Authors](#authors)
+7. [Documentation](#documentation)
+8. [Future Work](#future-work)
 
 ---
 
@@ -44,7 +44,6 @@ Pose2Seg is a model that uses human pose information to guide instance segmentat
 - **`results/`**: Outputs such as segmentation masks, charts, and test logs.
 - **`docs/`**: Additional documentation.
 - **`README.md`**: Project overview and user guide.
-- **`LICENSE`**: License file for the project.
 - **`requirements.txt`**: List of dependencies for the project.
 
 ---
