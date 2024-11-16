@@ -1,0 +1,11 @@
+{
+    "dataset_path": "data/processed/",       // Path to the COCO-formatted dataset.
+    "raw_data_path": "data/raw/",            // Path to the raw Ski2DPose dataset.
+    "output_path": "results/",               // Path to save results such as logs and masks.
+    "model_weights": "results/last.pkl",     // Path to the model weights file.
+    "train_epochs": 15,                      // Number of epochs for training.
+    "batch_size": 16,                        // Batch size for training.
+    "learning_rate": 0.001,                  // Learning rate for the optimizer.
+    "device": "cuda",                        // Device to use ("cuda" for GPU or "cpu" for CPU).
+    "log_interval": 10                       // Interval (in batches) for logging during training.
+}
