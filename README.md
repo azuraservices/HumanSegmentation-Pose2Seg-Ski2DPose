@@ -14,9 +14,9 @@ The primary goal is to understand the methodology proposed in the paper, validat
 
 
 ### Examples Segmentation w/ keypoints
-<img src="results/segmentations/segmentation.png" alt="Ground Truth vs Predicted" width="500" height="auto">
-<img src="results/segmentations/segmentation-1.png" alt="Ground Truth vs Predicted" width="500" height="auto">
-<img src="results/segmentations/segmentation-2.png" alt="Ground Truth vs Predicted" width="500" height="auto">
+<img src="results/segmentations/segmentation.png" alt="Ground Truth vs Predicted" width="800" height="auto">
+<img src="results/segmentations/segmentation-1.png" alt="Ground Truth vs Predicted" width="800" height="auto">
+<img src="results/segmentations/segmentation-2.png" alt="Ground Truth vs Predicted" width="800" height="auto">
 
 ---
 
