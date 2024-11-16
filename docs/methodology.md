@@ -41,11 +41,6 @@ Commands used:
   - Batch Size: 16
 - The model weights were saved in a file named `last.pkl`.
 
-Example command:
-```
-python src/train.py --config config.json
-```
-
 ---
 
 ### 3. Dataset Adaptation (Ski2DPose to COCO Format)
@@ -57,11 +52,6 @@ The Ski2DPose dataset was adapted to the COCO format to be compatible with Pose2
 3. **JSON Conversion**:
    - Saved all annotations in a COCO-compliant JSON file.
 
-Scripts used:
-```
-python src/adapt_dataset.py --input data/ski2dpose --output data/coco_format
-```
-
 ---
 
 ### 4. Testing and Evaluation
@@ -69,11 +59,6 @@ python src/adapt_dataset.py --input data/ski2dpose --output data/coco_format
 - The evaluation included:
   - **Qualitative Analysis**: Comparing predicted masks with ground truth.
   - **Quantitative Metrics**: Calculating precision (AP) and recall (AR) for various object sizes.
-
-Example command:
-```
-python src/test.py --weights results/last.pkl --dataset ski2dpose
-```
 
 ---
 
