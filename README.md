@@ -7,11 +7,16 @@ The primary goal is to understand the methodology proposed in the paper, validat
 
 ---
 
-### Example Figure
+### Examples Figure w/ bbox & joints
 <img src="results/figures/figure.png" alt="Ground Truth vs Predicted" width="500" height="auto">
+<img src="results/figures/figure-1.png" alt="Ground Truth vs Predicted" width="500" height="auto">
+<img src="results/figures/figure-2.png" alt="Ground Truth vs Predicted" width="500" height="auto">
 
-### Example Segmentation
+
+### Examples Segmentation w/ keypoints
 <img src="results/segmentations/segmentation.png" alt="Ground Truth vs Predicted" width="500" height="auto">
+<img src="results/segmentations/segmentation-1.png" alt="Ground Truth vs Predicted" width="500" height="auto">
+<img src="results/segmentations/segmentation-2.png" alt="Ground Truth vs Predicted" width="500" height="auto">
 
 ---
 
@@ -33,7 +38,7 @@ Pose2Seg is a model that uses human pose information to guide instance segmentat
 ---
 
 ### Repository Structure
-- **`src/`**: Source code for dataset adaptation, training, and testing.
+- **`src/`**: Source code for training and testing.
 - **`notebooks/`**: Jupyter or Colab notebooks used during the project.
 - **`data/`**: Scripts and examples for downloading and preprocessing the Ski2DPose dataset.
 - **`results/`**: Outputs such as segmentation masks, charts, and test logs.
@@ -97,6 +102,12 @@ pip install -r requirements.txt
 - **Qualitative Analysis**: Segmentations on the Ski2DPose dataset demonstrate good generalization capabilities, with some limitations in complex scenarios.
 
 Examples of outputs are available in the `results/` folder.
+
+---
+
+## Documentation
+
+For more detailed information, you can read the [project report](docs/report.pdf).
 
 ---
 
