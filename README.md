@@ -7,6 +7,14 @@ The primary goal is to understand the methodology proposed in the paper, validat
 
 ---
 
+### Example Figure
+<img src="results/figures/figure.png" alt="Ground Truth vs Predicted" width="500" height="auto">
+
+### Example Segmentation
+<img src="results/segmentations/segmentation.png" alt="Ground Truth vs Predicted" width="500" height="auto">
+
+---
+
 ### Table of Contents
 1. [Introduction](#introduction)
 2. [Repository Structure](#repository-structure)
